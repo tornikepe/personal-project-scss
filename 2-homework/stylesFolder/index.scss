@@ -1,0 +1,143 @@
+@import 'platte';
+@import 'reset';
+@import 'shared';
+
+body {
+    @include body-base-structure;
+}
+
+.container1 {
+    @include container1;
+}
+
+h1 {
+    @include all-h1-tags;
+    margin-left: 374px;
+    position: relative;
+    top: 27px;
+}
+
+section {
+    position: relative;
+    bottom: 49px;
+}
+
+.cont1 {
+    @include all-conts;
+    border: 1px solid $container-border-color;
+    background-color: #FFC12D;
+
+}
+
+.circle1 {
+    @include all-circles-components;
+    background-color: $circle1-color;
+    border: 7px solid $circle1-border;
+    margin-left: 51px;
+    position: relative;
+    top: 42px;
+}
+
+.icon {
+    margin-left: 18px;
+    position: relative;
+    top: 5px;
+}
+
+p:nth-of-type(1) {
+    @include all-p1-tag;
+    display: flex;
+    justify-content: center;
+    margin-right: 66px;
+    position: relative;
+    bottom: 63px;
+}
+
+p:nth-of-type(2) {
+    @include all-p2-tag;
+    margin-left: 144px;
+    position: relative;
+    bottom: 66px;
+}
+
+.x {
+    margin-left: 542px;
+    position: relative;
+    bottom: 33%;
+}
+
+.cont2 {
+    @include all-conts;
+    border: 1px solid $container-border-color;
+    margin-left: 600px;
+    position: relative;
+    bottom: 152px;
+    background-color: #A7EC2F;
+}
+
+.circle2 {
+    @include all-circles-components;
+    background-color: $circle2-color;
+    border: 7px solid $circle2-border;
+    margin-left: 51px;
+    position: relative;
+    top: 42px;
+}
+
+.cont3 {
+    @include all-conts;
+    border: 1px solid $container-border-color;
+    position: relative;
+    bottom: 123px;
+    background-color: #FEB1A4;
+}
+
+.circle3 {
+    @include all-circles-components;
+    background-color: $circle3-color;
+    border: 7px solid $circle3-border;
+    margin-left: 51px;
+    position: relative;
+    top: 42px;
+}
+
+.cont4 {
+    @include all-conts;
+    border: 1px solid $container-border-color;
+    position: relative;
+    margin-left: 600px;
+    bottom: 275px;
+    background-color: #85EBFA;
+}
+
+.circle4 {
+    @include all-circles-components;
+    background-color: $circle4-color;
+    border: 7px solid $circle4-border;
+    margin-left: 51px;
+    position: relative;
+    top: 42px;
+}
+
+.cont5 {
+    @include five-conts;
+    border: 1px solid $container-border-color;
+    position: relative;
+    bottom: 248px;
+    background-color: #AACDF6;
+}
+
+.circle5 {
+    @include all-circles-components;
+    background-color: $circle5-color;
+    border: 7px solid $circle5-border;
+    margin-left: 51px;
+    position: relative;
+    top: 42px;
+}
+
+.x2 {
+    margin-left: 1142px;
+    position: relative;
+    bottom: 34%;
+}

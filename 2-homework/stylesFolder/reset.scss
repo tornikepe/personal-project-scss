@@ -1,0 +1,11 @@
+@mixin body-base-structure {
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+}
+
+@mixin container1 {
+    margin: 124px auto;
+    width: 1173px;
+    height: 510px;
+}
