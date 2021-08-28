@@ -1,6 +1,6 @@
-@import 'platte';
-@import 'reset';
-@import 'shared';
+@import '_palette';
+@import '_reset';
+@import '_shared';
 
 body {
     @include body-base-structure;
