@@ -1,0 +1,163 @@
+#comp3 {
+  max-width: 1920px;
+  width: 100%;
+  height: 440px;
+  background-color: #FFFFFF;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#comp3 .div8 {
+  text-align: center;
+  position: relative;
+  left: 375px;
+  top: 125px;
+  border: 1px solid #DBE7EF;
+  width: 268px;
+  height: 208px;
+  border-radius: 3px;
+}
+
+#comp3 .p4,
+#comp3 .p6,
+#comp3 .p8 {
+  color: #2C3E50;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 32px;
+}
+
+#comp3 .p5,
+#comp3 .p7,
+#comp3 .p9,
+#comp3 .p11 {
+  text-align: center;
+  width: 190px;
+  height: 120px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  line-height: 24px;
+  color: #A1B1BC;
+  position: relative;
+  top: 23px;
+  left: 39px;
+}
+
+#comp3 .dot4,
+#comp3 .dot6,
+#comp3 .dot8,
+#comp3 .dot10 {
+  border: 1px solid #DBE7EF;
+  width: 57px;
+  height: 57px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 222px;
+  left: 26px;
+}
+
+#comp3 .dot5,
+#comp3 .dot7,
+#comp3 .dot9,
+#comp3 .dot11 {
+  border: 1px solid #DBE7EF;
+  width: 46px;
+  height: 46px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 228px;
+  right: 31.5px;
+}
+
+#comp3 .img1 {
+  background-image: url(../../../imagesFolder/Shape360.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 18px;
+  position: relative;
+  bottom: 264px;
+  left: 126px;
+}
+
+#comp3 .div9 {
+  text-align: center;
+  position: relative;
+  left: 405px;
+  top: 125px;
+  border: 1px solid #DBE7EF;
+  width: 268px;
+  height: 208px;
+  border-radius: 3px;
+}
+
+#comp3 .img2 {
+  background-image: url(../../../imagesFolder/loggg.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  bottom: 265px;
+  left: 125px;
+}
+
+#comp3 .div10 {
+  text-align: center;
+  position: relative;
+  left: 435px;
+  top: 125px;
+  border: 1px solid #DBE7EF;
+  width: 268px;
+  height: 208px;
+  border-radius: 3px;
+}
+
+#comp3 .img3 {
+  background-image: url(../../../imagesFolder/Shape406.png);
+  width: 20px;
+  height: 29px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 267px;
+  left: 123px;
+}
+
+#comp3 .div11 {
+  text-align: center;
+  position: relative;
+  left: 465px;
+  top: 125px;
+  border: 1px solid #DBE7EF;
+  width: 268px;
+  height: 208px;
+  border-radius: 3px;
+}
+
+#comp3 .img4 {
+  background-image: url(../../../imagesFolder/Shape371.png);
+  width: 20px;
+  height: 29px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 264px;
+  left: 124px;
+}
+
+#comp3 .p10 {
+  color: #2C3E50;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 32px;
+}
+/*# sourceMappingURL=index.css.map */

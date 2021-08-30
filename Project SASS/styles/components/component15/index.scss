@@ -1,0 +1,313 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp15
+#comp15 {
+    @include all-components-structure(608);
+    position: $position-relative;
+    bottom: bottom(3065);
+    background-color: $comp15-bgcolor;
+
+
+    .rectangle1 {
+        @include div-width-height(5, 18);
+        background-color: $color-green;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(97);
+    }
+
+    .p89 {
+        text-align: start;
+        @include p-structure(24, 700);
+        color: $color-white;
+        position: $position-relative;
+        top: top(49);
+        margin-left: 400px;
+    }
+
+    .colorgreen {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+
+    .p90 {
+        @include p-structure(59.49, 400);
+        color: $color-white;
+        position: $position-relative;
+        top: top(32);
+        margin-left: 375px;
+    }
+
+    .colorgreen2 {
+        color: $color-green;
+        font-weight: 700;
+    }
+
+    .img31 {
+        @include div-width-height(18, 20);
+        background-image: url(../../../imagesFolder/small-fox.png);
+        position: $position-relative;
+        bottom: bottom(85);
+        margin-left: 555px;
+    }
+
+    .p91 {
+        color: $colordarks-white;
+        @include div-width-height(370, 150);
+        @include p-structure(14, 400);
+        position: $position-relative;
+        bottom: bottom(46);
+        margin-left: 375px;
+        line-height: 24px;
+    }
+
+    .p92 {
+        color: $colordarks-white;
+        @include div-width-height(370, 150);
+        @include p-structure(14, 400);
+        position: $position-relative;
+        bottom: bottom(90);
+        margin-left: 375px;
+        line-height: 24px;
+    }
+
+    .input5 {
+        border-radius: 3px;
+        @include div-width-height(370, 50);
+        background-color: $comp-5-background-color;
+        position: $position-relative;
+        bottom: bottom(178);
+        margin-left: 376px;
+    }
+
+    .p93 {
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        top: top(13);
+        margin-left: 28px;
+        line-height: 24px;
+    }
+
+    .img32 {
+        @include div-width-height(50, 50);
+        background-image: url(../../../imagesFolder/Button.png);
+        position: $position-relative;
+        bottom: bottom(227);
+        margin-left: 695px;
+    }
+
+    .rectangle2 {
+        @include div-width-height(5, 18);
+        background-color: $color-green;
+        margin-left: 775px;
+        position: $position-relative;
+        bottom: bottom(628);
+    }
+
+    .p94 {
+        text-align: start;
+        @include p-structure(24, 700);
+        color: $color-white;
+        position: $position-relative;
+        bottom: bottom(674);
+        margin-left: 799px;
+    }
+
+    .colorgreen3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+
+    .profile-pic2 {
+        @include div-width-height(90, 90);
+        background-color: $color-white;
+        margin-left: 775px;
+        position: $position-relative;
+        bottom: bottom(643);
+    }
+
+    .p95 {
+        text-align: start;
+        @include div-width-height(258.8, 101.88);
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: $colordarks-white;
+        margin-left: 885px;
+        position: $position-relative;
+        bottom: bottom(758);
+        line-height: 27px;
+    }
+
+    .profile-pic3 {
+        @include div-width-height(90, 90);
+        background-color: $color-green;
+        margin-left: 775px;
+        position: $position-relative;
+        bottom: bottom(747);
+        @include p-structure(72, 300);
+        color: $color-white;
+        text-align: $text-align-center;
+    }
+
+    .p96 {
+        text-align: start;
+        @include div-width-height(258.8, 101.88);
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: $color-white;
+        margin-left: 885px;
+        position: $position-relative;
+        bottom: bottom(862);
+        line-height: 27px;
+    }
+
+    .profile-pic4 {
+        @include div-width-height(90, 90);
+        background-color: $color-white;
+        margin-left: 775px;
+        position: $position-relative;
+        bottom: bottom(850);
+    }
+
+    .p97 {
+        text-align: start;
+        @include div-width-height(258.8, 101.88);
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: $colordarks-white;
+        margin-left: 885px;
+        position: $position-relative;
+        bottom: bottom(966);
+        line-height: 27px;
+    }
+
+    .rectangle3 {
+        @include div-width-height(5, 18);
+        background-color: $color-green;
+        margin-left: 1175px;
+        position: $position-relative;
+        bottom: bottom(1393);
+    }
+
+    .p98 {
+        text-align: start;
+        @include p-structure(24, 700);
+        color: $color-white;
+        margin-left: 1199px;
+        position: $position-relative;
+        bottom: bottom(1442);
+    }
+
+    .colorgreen4 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+
+    .cubic4 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1410);
+        margin-left: 1174px;
+    }
+
+    .cubic5 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1495);
+        margin-left: 1269px;
+    }
+
+    .cubic6 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1580);
+        margin-left: 1364px;
+    }
+
+    .cubic7 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1665);
+        margin-left: 1460px;
+    }
+
+    .cubic8 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1655);
+        margin-left: 1174px;
+    }
+
+    .cubic9 {
+        @include div-width-height(85, 85);
+        border: 3px solid $color-white;
+        background-color: $colordarks-white;
+        position: $position-relative;
+        bottom: bottom(1743);
+        margin-left: 1268px;
+    }
+
+    .cubic10 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1830);
+        margin-left: 1364px;
+    }
+
+    .cubic11 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1914);
+        margin-left: 1460px;
+    }
+
+    .cubic12 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1904);
+        margin-left: 1460px;
+    }
+
+    .cubic13 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(1990);
+        margin-left: 1366px;
+    }
+
+    .cubic14 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(2074);
+        margin-left: 1269px;
+    }
+
+    .cubic15 {
+        @include div-width-height(85, 85);
+        background-color: $color-white;
+        position: $position-relative;
+        bottom: bottom(2159);
+        margin-left: 1175px;
+    }
+
+    .viev-more-photos {
+        @include p-structure(16, 700);
+        color: $color-green;
+        margin-left: 1176px;
+        position: $position-relative;
+        bottom: bottom(2148);
+    }
+}

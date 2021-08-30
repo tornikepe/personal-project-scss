@@ -1,0 +1,228 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+$bg-color:black;
+
+.comp6 {
+    @include all-components-structure(540);
+    padding-top: 103px;
+    position: $position-relative;
+    bottom: bottom(113);
+
+
+    .header {
+        p {
+            &:first-child {
+                @include p-structure(36, 300);
+                line-height: 20px;
+                text-align: $text-align-center;
+                color: $color-light-blue;
+                margin-left: 15px;
+
+                @if 10 - 5 !=6 {
+                    line-height: 20px;
+                }
+
+                @else if null {
+                    line-height: 25px;
+                }
+
+                @else if 5>10 {
+                    width: 100 % 41;
+                    background-color: red;
+                }
+
+                @else if 12>=10 {
+                    line-height: 35px;
+                }
+
+                @else if 12<10 {
+                    letter-spacing: 10px;
+                }
+
+                @else if 12<=10 {
+                    border: 10px solid yellow;
+                }
+
+                @else if 9+10==20 or 11+10==20 {
+                    background-color: brown;
+                }
+
+                @else if 9+10==20 and 11+10==20 {
+                    background-color: rgb(24, 148, 45);
+                }
+
+                @else if 20/20==1 not 3 {
+                    background-color: rgb(53, 0, 138);
+                }
+
+                @else if true {
+                    background-color: saddlebrown;
+                }
+
+                @else if false {
+                    display: none;
+                }
+            }
+
+            &:last-child {
+                @include p-structure(14, 400);
+                line-height: 24px;
+                text-align: $text-align-center;
+                margin-top: 24px;
+                color: $colordarks-white;
+                margin-left: 15px;
+                position: $position-relative;
+                bottom: bottom(12);
+            }
+        }
+    }
+
+    .services-cards {
+        display: $display-flex;
+        justify-content: $justify-content;
+        align-items: $align-items;
+        height: 300px;
+        margin-top: 45px;
+
+
+        .service-item {
+            border: 1px solid $comp6-serviceitem-border-color;
+            height: 100%;
+            width: 25%;
+        }
+
+        .services-img1 {
+            display: $display-flex;
+            justify-content: center;
+            align-items: $align-items;
+            margin-top: 34px;
+            margin-left: 5px;
+        }
+    }
+
+    .services-img2 {
+        display: flex;
+        justify-content: $justify-content;
+        align-items: $align-items;
+        margin-top: 34px;
+        margin-left: 14px;
+    }
+
+    .services-img3 {
+        display: $display-flex;
+        justify-content: $justify-content;
+        align-items: $align-items;
+        margin-top: 34px;
+        margin-left: 20px;
+    }
+
+    .services-img4 {
+        display: $display-flex;
+        justify-content: $justify-content;
+        align-items: $align-items;
+        margin-top: 34px;
+        margin-left: 27px;
+    }
+
+    .services-card-1 {
+        p {
+            &:not(:last-child) {
+                @include p-structure(18, 700);
+                line-height: 24px;
+                margin-top: 43px;
+                text-align: $text-align-center;
+                color: $color-light-blue;
+                margin-left: 1px;
+            }
+
+            &:last-child {
+                @include p-structure(14, 400);
+                line-height: 24px;
+                $bg-color: #A1B1BC !global;
+                color: $bg-color;
+                text-align: $text-align-center;
+                position: $position-relative;
+                bottom: bottom(4);
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .services-card-2 {
+        p {
+            &:not(:last-child) {
+                @include p-structure(18, 700);
+                line-height: 24px;
+                margin-top: 20px;
+                text-align: $text-align-center;
+                margin-top: 40px;
+                margin-left: 10px;
+                color: $comp-5-div-16-child-color;
+            }
+
+            &:last-child {
+                @include p-structure(14, 400);
+                line-height: 24px;
+                color: $colordarks-white;
+                text-align: $text-align-center;
+                position: $position-relative;
+                bottom: bottom(5);
+                margin-left: 10px;
+            }
+        }
+
+        img {
+            margin-top: -2px;
+        }
+    }
+
+    .services-card-3 {
+        background-color: $services-card-3-bgcolor;
+
+        p {
+            &:not(:last-child) {
+                @include p-structure(18, 700);
+                line-height: 24px;
+                margin-top: 20px;
+                text-align: $text-align-center;
+                margin-top: 45px;
+                margin-left: 21px;
+                color: $color-light-blue;
+            }
+
+            &:last-child {
+                @include p-structure(14, 400);
+                line-height: 24px;
+                color: $colordarks-white;
+                text-align: $text-align-center;
+                position: $position-relative;
+                bottom: bottom(5);
+                left: left(10);
+            }
+        }
+    }
+
+    .services-card-4 {
+        p {
+            &:not(:last-child) {
+                @include p-structure(18, 700);
+                line-height: 24px;
+                text-align: $text-align-center;
+                margin-top: 45px;
+                margin-left: 25px;
+                color: $color-light-blue;
+            }
+
+            &:last-child {
+                @include p-structure(14, 400);
+                line-height: 24px;
+                color: $colordarks-white;
+                text-align: $text-align-center;
+                margin-left: 29px;
+                position: $position-relative;
+                bottom: bottom(6);
+            }
+        }
+    }
+}

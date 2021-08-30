@@ -1,0 +1,128 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+@import './buttons';
+
+$global-bg-color:#FFFFFF;
+$p1-font-size : 20px+9px;
+
+// comp1
+#comp1 {
+    @include all-components-structure(1280);
+    $local-bg-color: #222533;
+    background-color: $local-bg-color;
+
+
+    .div1 {
+        display: $display-flex;
+        justify-content: center;
+        align-content: center;
+
+        .p1 {
+            position: $position-relative;
+            top: top(435);
+            left: left(16);
+            color: $global-bg-color;
+            text-transform: uppercase;
+            font-size: $p1-font-size;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 10px;
+            font-weight: 400;
+        }
+
+        .psd-template {
+            color: $color-green;
+            position: $position-relative;
+            left: left(-2);
+            text-transform: uppercase;
+            @include p-structure(29, 400);
+        }
+    }
+
+    .div2 {
+        display: $display-flex;
+        justify-content: center;
+        align-content: center;
+
+        .p2 {
+            position: $position-relative;
+            top: 400px-45px;
+            left: 5*2px;
+            color: $color-white;
+            text-transform: uppercase;
+            @include p-structure(60, 900);
+        }
+    }
+
+    .div3 {
+        display: $display-flex;
+        justify-content: center;
+        align-content: center;
+
+        .p3 {
+            position: $position-relative;
+            top: 200px+77px;
+            color: $global-bg-color;
+            text-transform: uppercase;
+            @include p-structure(30, 300);
+            left: 10px;
+        }
+    }
+
+    .div4 {
+        margin-left: 2 * 375px;
+        margin-top: 287px;
+
+        .btn1 {
+            @include btn(200, 60);
+            background-color: transparent;
+            color: $color-white;
+            stroke-width: 2;
+            stroke-linecap: butt;
+            stroke-miterlimit: 100px;
+            border: 2px solid $color-white;
+            @include p-structure(18, 900);
+            border-radius: 2px;
+
+            &>p {
+                position: $position-relative;
+                top: -3px;
+            }
+        }
+
+        .btn2 {
+            @extend .btn1;
+            border: 2px solid $color-green;
+            background-color: $color-green;
+            margin-left: 15px;
+        }
+    }
+
+    .div5 {
+        display: $display-flex;
+        justify-content: center;
+        align-content: center;
+
+        .dot {
+            border: 1px solid $color-white-gray;
+            position: $position-relative;
+            top: top(38);
+            left: left(5);
+            margin-left: 10px;
+            @include div-width-height(12, 12);
+            background-color: $color-white;
+            border-radius: 50%;
+            display: $display-inline-block;
+        }
+
+        .dot3 {
+            position: $position-relative;
+            top: top(41);
+            left: left(-29);
+            @include div-width-height(6, 6);
+            background-color: $color-green;
+            border-radius: 50%;
+            display: $display-inline-block;
+        }
+    }
+}

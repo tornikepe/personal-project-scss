@@ -1,0 +1,131 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp8
+#comp8 {
+    @include all-components-structure(711);
+    background-color: $comp6-serviceitem-border-color;
+    position: $position-relative;
+    bottom: bottom(207);
+}
+
+.p42 {
+    text-align: $text-align-center;
+    color: $comp-5-div-16-child-color;
+    @include p-structure(36, 300);
+    position: $position-relative;
+    margin-left: 20px;
+    top: top(45);
+}
+
+.p43 {
+    text-align: $text-align-center;
+    @include div-width-height(630.7, 630.7);
+    color: $colordarks-white;
+    @include p-structure(14, 400);
+    position: $position-relative;
+    top: top(23);
+    left: left(643);
+    line-height: 24px;
+}
+
+.div28 {
+    background-color: $color-white;
+    @include div-width-height(1165, 148);
+    border: 1px solid rgba(112, 112, 112, 0.2);
+    border-radius: 2px;
+    position: $position-relative;
+    bottom: bottom(508);
+    left: left(375);
+}
+
+.p44 {
+    text-align: $text-align-center;
+    @include div-width-height(1050, 70);
+    color: $colordarks-white;
+    @include p-structure(18, 400);
+    position: $position-relative;
+    top: top(20);
+    left: left(59);
+    line-height: 30px;
+}
+
+.triangle2 {
+    @include div-width-height(16, 20);
+    background-color: $color-white;
+    -ms-transform: rotate(20deg);
+    transform: rotate(45deg);
+    position: $position-relative;
+    left: left(577);
+    top: top(30);
+}
+
+.profile {
+    @include div-width-height(110, 110);
+    background-color: $color-white;
+    border-radius: 50%;
+    border: 3px solid $comp8-profile-border-color;
+    display: $display-inline-block;
+    position: $position-relative;
+    left: left(903);
+    bottom: bottom(480);
+}
+
+.profile-child {
+    @include div-width-height(100, 100);
+    background-color: $colordarks-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    left: left(5);
+    top: top(5);
+}
+
+.p45 {
+    text-align: $text-align-center;
+    color: $comp-5-div-16-child-color;
+    @include p-structure(18, 700);
+    position: $position-relative;
+    bottom: bottom(485);
+    margin-left: 20px;
+}
+
+.p46 {
+    text-align: $text-align-center;
+    color: $colordarks-white;
+    @include p-structure(14, 400);
+    position: $position-relative;
+    bottom: bottom(497);
+    margin-left: 20px;
+}
+
+.div29 {
+    display: $display-flex;
+    justify-content: $justify-content;
+    align-content: center;
+    position: $position-relative;
+    bottom: bottom(2);
+}
+
+.dot1 {
+    border: 1px solid $color-white-gray;
+    position: $position-relative;
+    bottom: bottom(455);
+    margin-left: 10px;
+    @include div-width-height(12, 12);
+    background-color: $color-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    left: left(10);
+}
+
+.dotgreen {
+    position: $position-relative;
+    bottom: bottom(451);
+    right: right(24);
+    @include div-width-height(6, 6);
+    background-color: $color-green;
+    border-radius: 50%;
+    display: $display-inline-block;
+}

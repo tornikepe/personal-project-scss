@@ -1,0 +1,278 @@
+#comp13 {
+  max-width: 1920px;
+  width: 100%;
+  height: 775px;
+  position: relative;
+  bottom: 3063px;
+  background-color: #222533;
+}
+
+#comp13 .keep-in-touch {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 85px;
+  margin-right: 943px;
+}
+
+#comp13 .cursor1 {
+  background-image: url(../../../imagesFolder/pointer.png);
+  width: 17px;
+  height: 18px;
+  margin-left: 423px;
+  position: relative;
+  bottom: 1818px;
+}
+
+#comp13 .cursor2 {
+  background-image: url(../../../imagesFolder/pointer.png);
+  width: 17px;
+  height: 18px;
+  margin-left: 1058px;
+  position: relative;
+  bottom: 1661px;
+}
+
+#comp13 .p84 {
+  width: 570px;
+  height: 100px;
+  text-align: start;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 85px;
+  margin-left: 374px;
+  line-height: 24px;
+}
+
+#comp13 .cover-overlay {
+  width: 493px;
+  height: 24px;
+  background-image: url(../../../imagesFolder/ColorOverlay.png);
+  margin-left: 376px;
+  position: relative;
+  top: 37px;
+}
+
+#comp13 .twitter {
+  width: 493px;
+  height: 24px;
+  background-image: url(../../../imagesFolder/twitter.png);
+  background-repeat: no-repeat;
+  margin-left: 418px;
+  position: relative;
+  top: 15px;
+}
+
+#comp13 .input1 {
+  border-radius: 4px;
+  background-color: transparent;
+  width: 570px;
+  height: 50px;
+  border: 1px solid #636372;
+  margin-left: 375px;
+  position: relative;
+  top: 41px;
+}
+
+#comp13 .input1 .p85 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 19px;
+  line-height: 24px;
+  bottom: 2px;
+}
+
+#comp13 .input2 {
+  border-radius: 4px;
+  background-color: transparent;
+  width: 570px;
+  height: 50px;
+  border: 1px solid #636372;
+  margin-left: 375px;
+  position: relative;
+  top: 59px;
+}
+
+#comp13 .input2 .p86 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 19px;
+  line-height: 24px;
+  bottom: 2px;
+}
+
+#comp13 .input3 {
+  border-radius: 4px;
+  background-color: transparent;
+  width: 570px;
+  height: 50px;
+  border: 1px solid #636372;
+  margin-left: 375px;
+  position: relative;
+  top: 77px;
+}
+
+#comp13 .input3 .p87 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 19px;
+  line-height: 24px;
+  bottom: 2px;
+}
+
+#comp13 .input4 {
+  border-radius: 4px;
+  background-color: transparent;
+  width: 570px;
+  height: 100px;
+  border: 1px solid #636372;
+  margin-left: 375px;
+  position: relative;
+  top: 95px;
+}
+
+#comp13 .btn8 {
+  border: none;
+  width: 570px;
+  height: 56px;
+  background-color: #1ABC9C;
+  margin-left: 375px;
+  position: relative;
+  top: 114px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+}
+
+#comp13 .meet-our-team {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 973px;
+  bottom: 507px;
+}
+
+#comp13 .picture3 {
+  border-radius: 3px;
+  width: 125px;
+  height: 125px;
+  background-color: #FFFFFF;
+  position: relative;
+  margin-left: 975px;
+  bottom: 499px;
+}
+
+#comp13 .john-doe {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 1119px;
+  bottom: 647px;
+}
+
+#comp13 .working {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 1119px;
+  bottom: 660px;
+}
+
+#comp13 .p88 {
+  width: 418px;
+  height: 161px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 1119px;
+  bottom: 662px;
+  line-height: 24px;
+}
+
+#comp13 .team-members2 {
+  position: relative;
+  bottom: 224px;
+}
+
+#comp13 .picture4 {
+  border-radius: 3px;
+  border: 5px solid #FFFFFF;
+  width: 115px;
+  height: 115px;
+  background-color: transparent;
+  position: relative;
+  margin-left: 975px;
+  bottom: 499px;
+}
+
+#comp13 .plus2 {
+  font-size: 72px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 1016px;
+  bottom: 932px;
+}
+
+#comp13 .team-members3 {
+  position: relative;
+  bottom: 664px;
+}
+
+#comp13 .cubics {
+  width: 36px;
+  height: 10px;
+  margin-left: 975px;
+  position: relative;
+  bottom: 1396px;
+}
+
+#comp13 .cubic1 {
+  width: 10px;
+  height: 10px;
+  background-color: #FFFFFF;
+}
+
+#comp13 .cubic2 {
+  width: 10px;
+  height: 10px;
+  margin-left: 16px;
+  position: relative;
+  bottom: 10px;
+  background-color: #1ABC9C;
+}
+
+#comp13 .cubic3 {
+  width: 10px;
+  height: 10px;
+  margin-left: 32px;
+  position: relative;
+  bottom: 20px;
+  background-color: #FFFFFF;
+}
+/*# sourceMappingURL=index.css.map */

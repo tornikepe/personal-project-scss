@@ -1,0 +1,30 @@
+@mixin p-structure($font-size, $font-weight:100) {
+    font-size: $font-size + px;
+    font-weight: $font-weight;
+    font-family: "Lato", sans-serif;
+}
+
+@mixin div-width-height($width, $height) {
+    width: $width + px;
+    height: $height + px;
+}
+
+@function top($top) {
+    @return $top+px;
+}
+
+@function left($left) {
+    @return $left+px;
+}
+
+@function bottom($bottom) {
+    @return $bottom+px;
+}
+
+@function right($right) {
+    @return $right+px;
+}
+
+@function margin-left($margin-left) {
+    @return $margin-left+px;
+}

@@ -1,0 +1,130 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp14
+
+#comp14 {
+    @include all-components-structure(101);
+    position: $position-relative;
+    bottom: bottom(3063);
+    background-color: $comp-5-background-color;
+
+
+    .img18 {
+        background-image: url(../../../imagesFolder/10.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 415px;
+        position: $position-relative;
+        top: top(32);
+    }
+
+    .img19 {
+        background-image: url(../../../imagesFolder/9.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 507px;
+        position: $position-relative;
+        top: top(10);
+    }
+
+    .img20 {
+        background-image: url(../../../imagesFolder/8.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 607px;
+        position: $position-relative;
+        bottom: bottom(10);
+    }
+
+    .img21 {
+        background-image: url(../../../imagesFolder/7.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 706px;
+        position: $position-relative;
+        bottom: bottom(33);
+    }
+
+    .img22 {
+        background-image: url(../../../imagesFolder/5.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 803px;
+        position: $position-relative;
+        bottom: bottom(54);
+    }
+
+    .img23 {
+        background-image: url(../../../imagesFolder/3.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 900px;
+        position: $position-relative;
+        bottom: bottom(75);
+    }
+
+    .img24 {
+        background-image: url(../../../imagesFolder/2.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 995px;
+        position: $position-relative;
+        bottom: bottom(98);
+    }
+
+    .img25 {
+        background-image: url(../../../imagesFolder/1.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1092px;
+        position: $position-relative;
+        bottom: bottom(121);
+    }
+
+    .img26 {
+        background-image: url(../../../imagesFolder/6.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1190px;
+        position: $position-relative;
+        bottom: bottom(143);
+    }
+
+    .img27 {
+        background-image: url(../../../imagesFolder/4.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1292px;
+        position: $position-relative;
+        bottom: bottom(165);
+    }
+
+    .img28 {
+        background-image: url(../../../imagesFolder/4.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1295px;
+        position: $position-relative;
+        bottom: bottom(187);
+    }
+
+    .img29 {
+        background-image: url(../../../imagesFolder/11.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1387px;
+        position: $position-relative;
+        bottom: bottom(207);
+    }
+
+    .img30 {
+        background-image: url(../../../imagesFolder/12.png);
+        background-repeat: no-repeat;
+        @include div-width-height(30, 22);
+        margin-left: 1483px;
+        position: $position-relative;
+        bottom: bottom(230);
+    }
+}

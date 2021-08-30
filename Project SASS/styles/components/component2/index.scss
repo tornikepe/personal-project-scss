@@ -1,0 +1,53 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp2
+#comp2 {
+    @include all-components-structure(90);
+    background-color: $color-white;
+    object-fit: $object-fit;
+    display: $display-flex;
+
+
+    .div6 {
+        background-image: url(../../../imagesFolder/logo.png);
+        background-repeat: no-repeat;
+        object-fit: $object-fit;
+        @include div-width-height(45, 48);
+        position: $position-relative;
+        left: left(375);
+        top: top(22);
+
+        &+p {
+            $comp2-p-color: #2C3E50;
+            color: $comp2-p-color;
+            position: $position-relative;
+            left: left(382);
+            bottom: bottom(11);
+            @include p-structure(35, 400);
+            letter-spacing: 1px;
+        }
+
+        .fox {
+            font-weight: 900;
+        }
+    }
+
+    .div7 {
+        box-shadow: $color-dark;
+        display: $display-flex;
+        text-align: $text-align-center;
+
+        &>p {
+            $cont2-p2-color: #A1B1BC;
+            color: $cont2-p2-color;
+            position: $position-relative;
+            left: left(509);
+            top: top(11);
+            @include p-structure(15, 300);
+            margin: 23.7px;
+        }
+    }
+
+}

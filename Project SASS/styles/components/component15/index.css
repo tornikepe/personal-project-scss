@@ -1,0 +1,354 @@
+#comp15 {
+  max-width: 1920px;
+  width: 100%;
+  height: 608px;
+  position: relative;
+  bottom: 3065px;
+  background-color: #1A1C27;
+}
+
+#comp15 .rectangle1 {
+  width: 5px;
+  height: 18px;
+  background-color: #1ABC9C;
+  margin-left: 375px;
+  position: relative;
+  top: 97px;
+}
+
+#comp15 .p89 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 49px;
+  margin-left: 400px;
+}
+
+#comp15 .colorgreen {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#comp15 .p90 {
+  font-size: 59.49px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 32px;
+  margin-left: 375px;
+}
+
+#comp15 .colorgreen2 {
+  color: #1ABC9C;
+  font-weight: 700;
+}
+
+#comp15 .img31 {
+  width: 18px;
+  height: 20px;
+  background-image: url(../../../imagesFolder/small-fox.png);
+  position: relative;
+  bottom: 85px;
+  margin-left: 555px;
+}
+
+#comp15 .p91 {
+  color: #A1B1BC;
+  width: 370px;
+  height: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 46px;
+  margin-left: 375px;
+  line-height: 24px;
+}
+
+#comp15 .p92 {
+  color: #A1B1BC;
+  width: 370px;
+  height: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 90px;
+  margin-left: 375px;
+  line-height: 24px;
+}
+
+#comp15 .input5 {
+  border-radius: 3px;
+  width: 370px;
+  height: 50px;
+  background-color: #222533;
+  position: relative;
+  bottom: 178px;
+  margin-left: 376px;
+}
+
+#comp15 .p93 {
+  color: #A1B1BC;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 13px;
+  margin-left: 28px;
+  line-height: 24px;
+}
+
+#comp15 .img32 {
+  width: 50px;
+  height: 50px;
+  background-image: url(../../../imagesFolder/Button.png);
+  position: relative;
+  bottom: 227px;
+  margin-left: 695px;
+}
+
+#comp15 .rectangle2 {
+  width: 5px;
+  height: 18px;
+  background-color: #1ABC9C;
+  margin-left: 775px;
+  position: relative;
+  bottom: 628px;
+}
+
+#comp15 .p94 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 674px;
+  margin-left: 799px;
+}
+
+#comp15 .colorgreen3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#comp15 .profile-pic2 {
+  width: 90px;
+  height: 90px;
+  background-color: #FFFFFF;
+  margin-left: 775px;
+  position: relative;
+  bottom: 643px;
+}
+
+#comp15 .p95 {
+  text-align: start;
+  width: 258.8px;
+  height: 101.88px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #A1B1BC;
+  margin-left: 885px;
+  position: relative;
+  bottom: 758px;
+  line-height: 27px;
+}
+
+#comp15 .profile-pic3 {
+  width: 90px;
+  height: 90px;
+  background-color: #1ABC9C;
+  margin-left: 775px;
+  position: relative;
+  bottom: 747px;
+  font-size: 72px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#comp15 .p96 {
+  text-align: start;
+  width: 258.8px;
+  height: 101.88px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-left: 885px;
+  position: relative;
+  bottom: 862px;
+  line-height: 27px;
+}
+
+#comp15 .profile-pic4 {
+  width: 90px;
+  height: 90px;
+  background-color: #FFFFFF;
+  margin-left: 775px;
+  position: relative;
+  bottom: 850px;
+}
+
+#comp15 .p97 {
+  text-align: start;
+  width: 258.8px;
+  height: 101.88px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #A1B1BC;
+  margin-left: 885px;
+  position: relative;
+  bottom: 966px;
+  line-height: 27px;
+}
+
+#comp15 .rectangle3 {
+  width: 5px;
+  height: 18px;
+  background-color: #1ABC9C;
+  margin-left: 1175px;
+  position: relative;
+  bottom: 1393px;
+}
+
+#comp15 .p98 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  margin-left: 1199px;
+  position: relative;
+  bottom: 1442px;
+}
+
+#comp15 .colorgreen4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#comp15 .cubic4 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1410px;
+  margin-left: 1174px;
+}
+
+#comp15 .cubic5 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1495px;
+  margin-left: 1269px;
+}
+
+#comp15 .cubic6 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1580px;
+  margin-left: 1364px;
+}
+
+#comp15 .cubic7 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1665px;
+  margin-left: 1460px;
+}
+
+#comp15 .cubic8 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1655px;
+  margin-left: 1174px;
+}
+
+#comp15 .cubic9 {
+  width: 85px;
+  height: 85px;
+  border: 3px solid #FFFFFF;
+  background-color: #A1B1BC;
+  position: relative;
+  bottom: 1743px;
+  margin-left: 1268px;
+}
+
+#comp15 .cubic10 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1830px;
+  margin-left: 1364px;
+}
+
+#comp15 .cubic11 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1914px;
+  margin-left: 1460px;
+}
+
+#comp15 .cubic12 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1904px;
+  margin-left: 1460px;
+}
+
+#comp15 .cubic13 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 1990px;
+  margin-left: 1366px;
+}
+
+#comp15 .cubic14 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 2074px;
+  margin-left: 1269px;
+}
+
+#comp15 .cubic15 {
+  width: 85px;
+  height: 85px;
+  background-color: #FFFFFF;
+  position: relative;
+  bottom: 2159px;
+  margin-left: 1175px;
+}
+
+#comp15 .viev-more-photos {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #1ABC9C;
+  margin-left: 1176px;
+  position: relative;
+  bottom: 2148px;
+}
+/*# sourceMappingURL=index.css.map */

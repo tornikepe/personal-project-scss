@@ -1,0 +1,25 @@
+@import '_reset';
+@import '_shared';
+@import '_palette';
+
+@import './components/component1/index.scss';
+@import './components/component2/index.scss';
+@import './components/component3/index.scss';
+@import './components/component4/index.scss';
+@import './components/component5/index.scss';
+@import './components/component6/index.scss';
+@import './components/component7/index.scss';
+@import './components/component8/index.scss';
+@import './components/component9/index.scss';
+@import './components/component10/index.scss';
+@import './components/component11/index.scss';
+@import './components/component12/index.scss';
+@import './components/component13/index.scss';
+@import './components/component14/index.scss';
+@import './components/component15/index.scss';
+@import './components/component16/index.scss';
+
+body,
+html {
+    @include body-structure;
+}

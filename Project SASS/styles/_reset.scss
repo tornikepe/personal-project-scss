@@ -1,0 +1,22 @@
+@mixin body-structure {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin all-components-structure($height) {
+    max-width: 1900px+20px;
+    width: 100%;
+    height: $height + px;
+}
+
+$bordernone:none;
+$display-grid:grid;
+$position-relative : relative;
+$display-flex : flex;
+$display-inline-block: inline-block;
+$object-fit:cover;
+$text-align-center:center;
+$text-align-left:left;
+$align-items:center;
+$justify-content:center;

@@ -1,0 +1,158 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp12
+#comp12 {
+    @include all-components-structure(790);
+    position: $position-relative;
+    bottom: bottom(400);
+
+    .breaking-news {
+        text-align: $text-align-center;
+        @include p-structure (36, 300);
+        color: $comp-5-div-16-child-color;
+        position: $position-relative;
+        top: top(55);
+        margin-left: 30px;
+    }
+
+    .p80 {
+        @include div-width-height(620, 119);
+        text-align: $text-align-center;
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        line-height: 24px;
+        top: top(35);
+        margin-left: 656px;
+    }
+
+    .picture {
+        width: 170px;
+        height: 200px;
+        background-color: $comp-12-picture-bgcolor;
+        position: $position-relative;
+        bottom: bottom(2);
+        margin-left: 374px;
+    }
+
+    .first-text {
+        @include div-width-height(179, 183);
+        text-align: start;
+        color: $comp-5-div-16-child-color;
+        @include p-structure(18, 700);
+        position: $position-relative;
+        bottom: bottom(227);
+        margin-left: 563px;
+        line-height: 27px;
+    }
+
+    .fa,
+    .far,
+    .fas {
+        color: $color-green;
+    }
+
+    .fa-calendar-alt {
+        position: $position-relative;
+        bottom: bottom(307);
+        margin-left: 564px;
+    }
+
+    .p81 {
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        bottom: bottom(340);
+        margin-left: 589px;
+    }
+
+    .fa-comment {
+        position: $position-relative;
+        bottom: bottom(339);
+        margin-left: 563px;
+    }
+
+    .p82 {
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        bottom: bottom(371);
+        margin-left: 589px;
+    }
+
+    .p83 {
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        bottom: bottom(405);
+        margin-left: 589px;
+    }
+
+    .fa-bookmark {
+        position: $position-relative;
+        bottom: bottom(373);
+        margin-left: 564px;
+    }
+
+    .second {
+        margin-left: 400px;
+        position: $position-relative;
+        bottom: bottom(608);
+    }
+
+    .picture2 {
+        background-color: $color-light-blue;
+        @include div-width-height(170, 200);
+        position: $position-relative;
+        bottom: bottom(2);
+        margin-left: 374px;
+    }
+
+    .second-text {
+        @include div-width-height(180, 183);
+        text-align: start;
+        color: $color-light-blue;
+        @include p-structure(18, 700);
+        position: $position-relative;
+        bottom: bottom(227);
+        margin-left: 563px;
+        line-height: 27px;
+    }
+
+    .third {
+        position: $position-relative;
+        bottom: bottom(1215);
+        margin-left: 800px;
+    }
+
+    .fourth {
+        position: $position-relative;
+        bottom: bottom(1574);
+    }
+
+    .fifth {
+        position: $position-relative;
+        bottom: bottom(2182);
+        margin-left: 400px;
+    }
+
+    .fifth-text {
+        @include div-width-height(180, 156);
+        text-align: start;
+        color: $color-light-blue;
+        @include p-structure(18, 700);
+        position: $position-relative;
+        bottom: bottom(227);
+        margin-left: 563px;
+        line-height: 27px;
+    }
+
+    .sixteenth {
+        position: $position-relative;
+        bottom: bottom(2762);
+        margin-left: 800px;
+    }
+
+}

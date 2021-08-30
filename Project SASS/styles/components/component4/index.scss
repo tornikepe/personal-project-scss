@@ -1,0 +1,50 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// com4
+#comp4 {
+    @include all-components-structure(501);
+
+    .p12 {
+        @include p-structure(36, 300);
+        color: $color-light-blue;
+        position: $position-relative;
+        text-align: $text-align-center;
+        right: right(454);
+        top: top(50);
+    }
+
+    .p13 {
+        @include p-structure(14, 400);
+        text-align: $text-align-left;
+        @include div-width-height(570, 205);
+        color: $colordarks-white;
+        position: $position-relative;
+        top: top(29);
+        left: left(375);
+        line-height: 24px;
+    }
+
+    .btn3 {
+        @include div-width-height(173.68, 50);
+        @include p-structure(16, 900);
+        $comp4-btn3-color: #34495E;
+        color: $comp4-btn3-color;
+        border-radius: 2px;
+        background-color: $color-white;
+        border: 1px solid $colordarkwhite;
+        position: $position-relative;
+        left: left(373);
+        top: top(4);
+    }
+
+    .div13 {
+        @include div-width-height(543, 275);
+        background-image: url(../../../imagesFolder/isometriciPadAirSpaceGray.png);
+        background-repeat: no-repeat;
+        position: $position-relative;
+        left: left(1009);
+        bottom: bottom(263);
+    }
+}

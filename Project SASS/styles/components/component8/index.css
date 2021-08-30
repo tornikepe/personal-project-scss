@@ -1,0 +1,152 @@
+#comp8 {
+  max-width: 1920px;
+  width: 100%;
+  height: 711px;
+  background-color: #ECF0F1;
+  position: relative;
+  bottom: 207px;
+}
+
+.p42 {
+  text-align: center;
+  color: #2C3E50;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  margin-left: 20px;
+  top: 45px;
+}
+
+.p43 {
+  text-align: center;
+  width: 630.7px;
+  height: 630.7px;
+  color: #A1B1BC;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 23px;
+  left: 643px;
+  line-height: 24px;
+}
+
+.div28 {
+  background-color: #FFFFFF;
+  width: 1165px;
+  height: 148px;
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  border-radius: 2px;
+  position: relative;
+  bottom: 508px;
+  left: 375px;
+}
+
+.p44 {
+  text-align: center;
+  width: 1050px;
+  height: 70px;
+  color: #A1B1BC;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 20px;
+  left: 59px;
+  line-height: 30px;
+}
+
+.triangle2 {
+  width: 16px;
+  height: 20px;
+  background-color: #FFFFFF;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: relative;
+  left: 577px;
+  top: 30px;
+}
+
+.profile {
+  width: 110px;
+  height: 110px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 3px solid #E6EBED;
+  display: inline-block;
+  position: relative;
+  left: 903px;
+  bottom: 480px;
+}
+
+.profile-child {
+  width: 100px;
+  height: 100px;
+  background-color: #A1B1BC;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.p45 {
+  text-align: center;
+  color: #2C3E50;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 485px;
+  margin-left: 20px;
+}
+
+.p46 {
+  text-align: center;
+  color: #A1B1BC;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 497px;
+  margin-left: 20px;
+}
+
+.div29 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  bottom: 2px;
+}
+
+.dot1 {
+  border: 1px solid #DDDDDD;
+  position: relative;
+  bottom: 455px;
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  left: 10px;
+}
+
+.dotgreen {
+  position: relative;
+  bottom: 451px;
+  right: 24px;
+  width: 6px;
+  height: 6px;
+  background-color: #1ABC9C;
+  border-radius: 50%;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,71 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp16
+#comp16 {
+    @include all-components-structure(80);
+    position: $position-relative;
+    bottom: bottom(3065);
+    background-color: $comp-5-background-color;
+}
+
+.small-fox {
+    @include div-width-height(18, 20);
+    background-image: url(../../../imagesFolder/small-fox.png);
+    margin-left: 375px;
+    position: $position-relative;
+    top: top(28);
+}
+
+.p99 {
+    @include p-structure(15, 400);
+    color: $colordarks-white;
+    position: $position-relative;
+    bottom: bottom(7);
+    margin-left: 412px;
+}
+
+.final-green {
+    color: $color-green
+}
+
+.p100 {
+    @include p-structure(14, 400);
+    color: $colordarks-white;
+    position: $position-relative;
+    bottom: bottom(40);
+    margin-left: 1112px;
+}
+
+.p101 {
+    @include p-structure(14, 400);
+    color: $color-green;
+    position: $position-relative;
+    bottom: bottom(72);
+    margin-left: 1217px;
+}
+
+.p102 {
+    @include p-structure(14, 400);
+    color: $colordarks-white;
+    position: $position-relative;
+    bottom: bottom(102);
+    margin-left: 1341px;
+}
+
+.p103 {
+    @include p-structure(14, 400);
+    color: $colordarks-white;
+    position: $position-relative;
+    bottom: bottom(133);
+    margin-left: 1411px;
+}
+
+.p104 {
+    @include p-structure(14, 400);
+    color: $colordarks-white;
+    position: $position-relative;
+    bottom: bottom(164);
+    margin-left: 1487px;
+}

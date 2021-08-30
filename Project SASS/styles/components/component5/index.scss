@@ -1,0 +1,228 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp5
+#comp5 {
+    @include all-components-structure(700);
+    background-color: $comp-5-background-color;
+    position: $position-relative;
+    bottom: bottom(70);
+}
+
+.p14 {
+    @include p-structure(36, 300);
+    color: $color-white;
+    margin-left: margin-left(834);
+    position: $position-relative;
+    top: top(82);
+}
+
+.p15 {
+    @include p-structure(14, 400);
+
+    $width: 630.7px;
+    $height: 141.24px;
+
+    width: $width;
+    height: $height;
+
+    // if statement
+
+    @if $width==630.7px {
+        color: $color-white;
+    }
+
+    @else if $width==630.8 {
+        color: $color-light-blue;
+    }
+
+    @else {
+        color: $color-green;
+    }
+
+    position: $position-relative;
+    text-align: $text-align-center;
+    line-height: 24px;
+    top: top(58);
+    left: left(643);
+}
+
+.div14 {
+    border: 6px solid $color-green;
+    @include div-width-height(188, 188);
+    background-color: $color-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(6);
+    left: left(408);
+}
+
+.div15-child {
+    @include div-width-height(102, 102);
+    background-color: #ECF0F1;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(45);
+    left: left(43);
+}
+
+// for statement (through)
+@for $i from 1 through 4 {
+    .five-comp-p#{$i} {
+        @include p-structure(18, 700);
+        position: $position-relative;
+        color: $color-white;
+    }
+}
+
+// for statement (to)
+@for $i from 1 to 5 {
+    .five-comp-loremtext-#{$i} {
+        text-align: $text-align-center;
+        @include div-width-height(260.32, 200.57);
+        color: $color-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        color: $color-white;
+    }
+}
+
+// for statement (to)
+
+@for $i from 4 to 0 {
+    .procent-#{$i} {
+        color: $comp-5-p16-color;
+        @include p-structure(18, 400);
+        position: $position-relative;
+        text-align: $text-align-center;
+    }
+}
+
+.p16 {
+    top: top(21);
+    left: left(2);
+}
+
+.p17 {
+    top: top(102);
+    left: left(50);
+}
+
+.p18 {
+    line-height: 24px;
+    top: top(98);
+    right: right(35);
+}
+
+.div15 {
+    border: 6px solid $comp-5-div-15-border-color;
+    @include div-width-height(188, 188);
+    background-color: $color-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(7);
+    left: left(505);
+}
+
+.div16-child {
+    @include div-width-height(102, 102);
+    background-color: $comp-5-div-16-child-color;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(45);
+    left: left(44);
+}
+
+.p19 {
+    color: $color-white;
+    top: top(21);
+}
+
+.p20 {
+    top: top(102);
+    left: left(50);
+}
+
+.p21 {
+    line-height: 24px;
+    top: top(98);
+    right: right(36);
+}
+
+.div16 {
+    border: 6px solid $color-green;
+    @include div-width-height(188, 188);
+    background-color: $color-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(7);
+    left: left(600);
+}
+
+.div17-child {
+    @include div-width-height(102, 102);
+    background-color: $comp-5-div-17-child-background-color;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(45);
+    left: left(43);
+}
+
+.p22 {
+    top: top(21);
+    left: left(2);
+}
+
+.p23 {
+    top: top(102);
+    left: left(42);
+}
+
+.p24 {
+    line-height: 24px;
+    top: top(98);
+    right: right(34);
+}
+
+.div17 {
+    border: 6px solid $color-green;
+    @include div-width-height(188, 188);
+    background-color: $color-white;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(7);
+    left: left(697);
+}
+
+.div18-child {
+    @include div-width-height(102, 102);
+    background-color: $comp-5-div-17-child-background-color;
+    border-radius: 50%;
+    display: $display-inline-block;
+    position: $position-relative;
+    top: top(45);
+    left: left(43);
+}
+
+.p25 {
+    top: top(21);
+}
+
+.p26 {
+    top: top(102);
+    left: left(53);
+}
+
+.p27 {
+    line-height: 24px;
+    top: top(98);
+    right: right(36);
+}

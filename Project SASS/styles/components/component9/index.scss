@@ -1,0 +1,219 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp9
+#comp9 {
+    @include all-components-structure(874);
+    background-color: $comp-5-background-color;
+    position: $position-relative;
+    bottom: bottom(276);
+}
+
+.the-fox {
+    @include p-structure(36, 300);
+    color: $color-white;
+    line-height: 3px;
+    text-align: $text-align-center;
+    position: $position-relative;
+    top: top(107);
+    margin-left: 18px;
+}
+
+.color-green2 {
+    color: $color-green-2;
+}
+
+.p47 {
+    text-align: center;
+    color: $color-white-2;
+    @include p-structure(15, 400);
+    position: $position-relative;
+    line-height: 24px;
+    top: top(102);
+    margin-left: 12px;
+}
+
+.div30 {
+    @include div-width-height(446, 700);
+    background-color: $color-white;
+    opacity: 0.3;
+    border-radius: 6%;
+    position: $position-relative;
+    top: top(129);
+    left: left(736);
+}
+
+.p48 {
+    text-align: $text-align-left;
+    @include p-structure(18, 700);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(535);
+    margin-left: 428px;
+}
+
+.p49 {
+    @include div-width-height(299.2, 159.79);
+    line-height: 24px;
+    text-align: end;
+    @include p-structure(14, 400);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(531);
+    left: left(374);
+}
+
+.img5 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    left: left(624);
+    bottom: bottom(480);
+}
+
+.p50 {
+    text-align: $text-align-left;
+    @include p-structure(18, 700);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(651);
+    margin-left: 455px;
+}
+
+.p51 {
+    @include div-width-height(299.2, 159.79);
+    line-height: 24px;
+    text-align: end;
+    @include p-structure(14, 400);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(648);
+    margin-left: 374px;
+}
+
+.img6 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    left: left(624);
+    bottom: bottom(596);
+}
+
+.p52 {
+    text-align: $text-align-left;
+    @include p-structure(18, 800);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(767);
+    margin-left: 460px;
+}
+
+.p53 {
+    @include div-width-height(299.2, 159.79);
+    line-height: 24px;
+    text-align: end;
+    @include p-structure(14, 400);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(762);
+    margin-left: 374px;
+}
+
+.img7 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    margin-left: 624px;
+    bottom: bottom(710);
+}
+
+.p54 {
+    text-align: $text-align-left;
+    @include p-structure(18, 700);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1381);
+    margin-left: 1306px;
+}
+
+.p55 {
+    @include div-width-height(299.2, 159.79);
+    @include p-structure(14, 400);
+    line-height: 24px;
+    text-align: start;
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1376);
+    margin-left: 1245px;
+}
+
+.img8 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    margin-left: 1245px;
+    bottom: bottom(1324);
+}
+
+.p56 {
+    text-align: $text-align-left;
+    @include p-structure(18, 700);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1496);
+    margin-left: 1305px;
+}
+
+.p57 {
+    @include div-width-height(299.2, 159.79);
+    line-height: 24px;
+    text-align: start;
+    @include p-structure(14, 400);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1493);
+    margin-left: 1245px;
+}
+
+.img9 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    margin-left: 1245px;
+    bottom: bottom(1440);
+}
+
+.p58 {
+    text-align: $text-align-left;
+    @include p-structure(18, 700);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1614);
+    margin-left: 1304px;
+}
+
+.p59 {
+    @include div-width-height(299.2, 159.79);
+    line-height: 24px;
+    text-align: start;
+    @include p-structure(14, 400);
+    color: $color-white;
+    position: $position-relative;
+    bottom: bottom(1609);
+    margin-left: 1244px;
+}
+
+.img10 {
+    @include div-width-height(50, 50);
+    background-image: url(../../../imagesFolder/Group15.png);
+    background-repeat: no-repeat;
+    position: $position-relative;
+    margin-left: 1245px;
+    bottom: bottom(1555);
+}

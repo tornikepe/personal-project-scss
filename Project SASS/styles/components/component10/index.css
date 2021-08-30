@@ -1,0 +1,364 @@
+#comp10 {
+  max-width: 1920px;
+  width: 100%;
+  height: 1098px;
+  position: relative;
+  bottom: 270px;
+}
+
+#comp10 .pricing-tables {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #2C3E50;
+  position: relative;
+  margin-left: 15px;
+  top: 56px;
+}
+
+#comp10 .p60 {
+  width: 630.7px;
+  height: 141.24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #A1B1BC;
+  position: relative;
+  top: 32px;
+  margin-left: 644px;
+}
+
+#comp10 .grid {
+  -webkit-column-gap: 1px;
+          column-gap: 1px;
+  row-gap: 1px;
+  position: relative;
+  margin-left: 370px;
+  top: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 295px 290px 291px 293px;
+      grid-template-columns: 295px 290px 291px 293px;
+  -ms-grid-rows: 152px (37px)[6] 85px;
+      grid-template-rows: 152px repeat(6, 37px) 85px;
+}
+
+#comp10 .grid .border {
+  border: 1px solid #000000;
+}
+
+#comp10 .grid .grid-container {
+  background-color: #EAEBEC;
+}
+
+#comp10 .grid .grid-prcing-plans {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #A1B1BC;
+  position: relative;
+  top: 35px;
+}
+
+#comp10 .grid-container2 {
+  height: 66px;
+  width: 100%;
+  background-color: #34495E;
+  position: relative;
+  bottom: 25px;
+}
+
+#comp10 .grid-container2 .standard {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 18px;
+}
+
+#comp10 .linear-gradient {
+  height: 88px;
+  position: relative;
+  bottom: 74px;
+  background: -webkit-gradient(linear, left top, right top, from(#1dd1ad), to(#45d0ff));
+  background: linear-gradient(90deg, #1dd1ad 0%, #45d0ff 100%);
+}
+
+#comp10 .linear-gradient .dollar-month {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 5px;
+  margin-left: 6px;
+}
+
+#comp10 .linear-gradient .month {
+  position: relative;
+  bottom: 52px;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  margin-left: 123px;
+}
+
+#comp10 .linear-gradient2 {
+  height: 86px;
+  position: relative;
+  bottom: 88px;
+  background: -webkit-gradient(linear, left top, right top, from(#1dd1ad), to(#45d0ff));
+  background: linear-gradient(90deg, #1dd1ad 0%, #45d0ff 100%);
+}
+
+#comp10 .month2 {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 54px;
+  color: #FFFFFF;
+  margin-left: 123px;
+}
+
+#comp10 .grid-container3 {
+  height: 83px;
+  width: 100%;
+  background-color: #34495E;
+  position: relative;
+  bottom: 42px;
+}
+
+#comp10 .ultimate {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  top: 25px;
+}
+
+#comp10 .dollar-month2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 2px;
+  margin-left: 6px;
+}
+
+#comp10 .month3 {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  bottom: 54px;
+  color: #FFFFFF;
+  margin-left: 123px;
+}
+
+#comp10 .grid-container4 {
+  height: 66px;
+  width: 100%;
+  background-color: #34495E;
+  position: relative;
+  bottom: 25px;
+}
+
+#comp10 .diamond {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 18px;
+}
+
+#comp10 .dollar-month3 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  position: relative;
+  top: 2px;
+  margin-left: 3px;
+}
+
+#comp10 .linear-gradient3 {
+  height: 86px;
+  position: relative;
+  bottom: 72px;
+  background: -webkit-gradient(linear, left top, right top, from(#1dd1ad), to(#45d0ff));
+  background: linear-gradient(90deg, #1dd1ad 0%, #45d0ff 100%);
+}
+
+#comp10 .aos,
+#comp10 .fdn,
+#comp10 .twentyfoursupport,
+#comp10 .greycolor {
+  text-align: center;
+  color: #686D80;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  vertical-align: middle;
+  line-height: 35px;
+  background-color: #F6F6F6;
+}
+
+#comp10 .threegb,
+#comp10 .threeegb,
+#comp10 .twogb,
+#comp10 .bandwidth-per-month,
+#comp10 .fivegb,
+#comp10 .onefivegb,
+#comp10 .hundredgb,
+#comp10 .twoacc,
+#comp10 .fiveaccount,
+#comp10 .threeacc,
+#comp10 .twofree,
+#comp10 .fivefree,
+#comp10 .twentyfree,
+#comp10 .phpmyadmin,
+#comp10 .freeupdate,
+#comp10 .order-now,
+#comp10 .order-now2 {
+  text-align: center;
+  background-color: #eaebed;
+  color: #686D80;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+#comp10 .q {
+  text-align: center;
+  background-color: #EAEBEC;
+  color: #EF584D;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+#comp10 .r {
+  text-align: center;
+  background-color: #EAEBEC;
+  color: #7BC200;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+#comp10 .btn5 {
+  width: 120px;
+  height: 32px;
+  text-align: center;
+  background-color: #1ABC9C;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-left: 5px;
+  position: relative;
+  top: 32px;
+  -webkit-box-shadow: 1.5px 3px 1px #16A085;
+          box-shadow: 1.5px 3px 1px #16A085;
+}
+
+#comp10 .btn6 {
+  width: 120px;
+  height: 32px;
+  text-align: center;
+  background-color: #3A3E4A;
+  border: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-left: 5px;
+  position: relative;
+  top: 32px;
+  -webkit-box-shadow: 1.5px 3px 1px #333333;
+          box-shadow: 1.5px 3px 1px #333333;
+}
+
+#comp10 footer {
+  margin-left: 376px;
+  position: relative;
+  top: 116px;
+  width: 1170px;
+  height: 150px;
+  border: 1px solid #EAEBEC;
+}
+
+#comp10 .container5 {
+  background-color: #1ABC9C;
+  width: 10px;
+  height: 140px;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+
+#comp10 .p61 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: #2C3E50;
+  position: relative;
+  bottom: 140px;
+  margin-left: 45px;
+}
+
+#comp10 .p62 {
+  width: 823.5px;
+  height: 136.82px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #A1B1BC;
+  position: relative;
+  bottom: 153px;
+  line-height: 24px;
+  margin-left: 42px;
+}
+
+#comp10 .btn7 {
+  text-align: center;
+  width: 176px;
+  height: 50px;
+  text-align: center;
+  background-color: #1ABC9C;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  margin-left: 941px;
+  position: relative;
+  bottom: 323px;
+  -webkit-box-shadow: 1px 2px 1px #16A085;
+          box-shadow: 1px 2px 1px #16A085;
+}
+/*# sourceMappingURL=index.css.map */

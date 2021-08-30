@@ -1,0 +1,236 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp11
+#comp11 {
+    @include all-components-structure(1264);
+    position: $position-relative;
+    bottom: bottom(300);
+
+
+    //each with map-------------------------------------
+
+    $colors: (1:#2C3E50, 2:#2C3E50, 3:#2C3E50);
+
+    @each $name,
+    $color in $colors {
+        .color-#{$name} {
+            color: $color;
+        }
+    }
+
+    //each with map-------------------------------------
+
+    .img11 {
+        background-image: url(../../../imagesFolder/keyboard&mouse3.png);
+        @include div-width-height(544, 542);
+        background-repeat: no-repeat;
+        margin-left: 376px;
+        margin-top: 98px;
+    }
+
+    .p63 {
+        text-align: $text-align-center;
+        @include p-structure(36, 300);
+        margin-left: 418px;
+        position: $position-relative;
+        bottom: bottom(526);
+    }
+
+    .img12,
+    .img13,
+    .img14,
+    .img15 {
+        background-image: url(../../../imagesFolder/Icon.png);
+        @include div-width-height(35, 40);
+        background-repeat: no-repeat;
+        margin-left: 975px;
+        position: $position-relative;
+        bottom: bottom(520);
+    }
+
+    .p64,
+    .p66 {
+        text-align: $text-align-center;
+        @include p-structure(18, 700);
+        margin-left: 250px;
+        position: $position-relative;
+        bottom: bottom(570);
+    }
+
+    .p65,
+    .p67,
+    .p69,
+    .p71 {
+        width: 260px;
+        text-align: start;
+        @include p-structure(14, 400);
+        color: $colordarks-white;
+        line-height: 24px;
+        margin-left: 975px;
+        position: $position-relative;
+        bottom: bottom(570);
+    }
+
+    .view-detail {
+        @include p-structure(15, 700);
+        margin-left: 975px;
+        position: $position-relative;
+        bottom: bottom(578);
+        color: $color-green;
+    }
+
+    .container7 {
+        position: $position-relative;
+        bottom: bottom(25);
+    }
+
+    .p68 {
+        text-align: $text-align-center;
+        @include p-structure(18, 700);
+        margin-left: 610px;
+        position: $position-relative;
+        bottom: bottom(570);
+    }
+
+    .container8 {
+        margin-left: 300px;
+        position: $position-relative;
+        bottom: bottom(435);
+    }
+
+    .p70 {
+        text-align: $text-align-center;
+        @include p-structure(18, 700);
+        color: $color-light-blue;
+        margin-left: 558px;
+        position: $position-relative;
+        bottom: bottom(570);
+    }
+
+    .container9 {
+        margin-left: 300px;
+        position: $position-relative;
+        bottom: bottom(462);
+        margin-left: 300px;
+        bottom: bottom(462);
+    }
+
+    .amazing-theme-options {
+        @include p-structure(36, 300);
+        color: $color-light-blue;
+        margin-left: 374px;
+        position: $position-relative;
+        bottom: bottom(926);
+    }
+
+    //each with list----------------------------------
+    $fonts: (18px,
+        18px,
+        18px, 18px);
+
+    @each $font in $fonts {
+        .font-#{$font} {
+            font-size: $font;
+        }
+    }
+
+
+    .p72 {
+        text-align: $text-align-center;
+        color: $color-light-blue;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-right: 949px;
+        position: $position-relative;
+        bottom: bottom(970);
+    }
+
+    .p73,
+    .p75,
+    .p77,
+    .p79 {
+        width: 260px;
+        text-align: start;
+        @include p-structure(14, 400);
+        color: $colordarks-white;
+        line-height: 24px;
+        margin-left: 375px;
+        position: $position-relative;
+        bottom: bottom(970);
+    }
+
+    .view-detail2 {
+        text-align: start;
+        @include p-structure(15, 700);
+        margin-left: 975px;
+        position: $position-relative;
+        bottom: bottom(978);
+        margin-left: 375px;
+        color: $color-green;
+    }
+
+    .img16 {
+        background-image: url(../../../imagesFolder/Icon.png);
+        @include div-width-height(35, 40);
+        margin-left: 375px;
+        position: $position-relative;
+        bottom: bottom(920);
+    }
+
+    .container11 {
+        position: $position-relative;
+        bottom: bottom(25);
+    }
+
+    .p74 {
+        text-align: $text-align-center;
+        color: $color-light-blue;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-right: 942px;
+        position: $position-relative;
+        bottom: bottom(970);
+    }
+
+    .p76 {
+        text-align: $text-align-center;
+        color: $color-light-blue;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-right: 572px;
+        position: $position-relative;
+        bottom: bottom(970);
+    }
+
+    .container12 {
+        margin-left: 300px;
+        position: $position-relative;
+        bottom: bottom(436);
+    }
+
+    .p78 {
+        text-align: $text-align-center;
+        color: $color-light-blue;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        margin-right: 570px;
+        position: $position-relative;
+        bottom: bottom(970);
+    }
+
+    .container13 {
+        margin-left: 300px;
+        position: $position-relative;
+        bottom: bottom(462);
+    }
+
+    .img17 {
+        background-image: url(../../../imagesFolder/Mockup.png);
+        @include div-width-height(558, 441);
+        position: $position-relative;
+        bottom: bottom(1870);
+        margin-left: 992px;
+    }
+}

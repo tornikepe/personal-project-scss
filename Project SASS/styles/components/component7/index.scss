@@ -1,0 +1,159 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp7
+#comp7 {
+    @include all-components-structure(845);
+    position: $position-relative;
+    bottom: bottom(175);
+}
+
+.p38 {
+    color: $color-light-blue;
+    @include p-structure(36, 300);
+    position: $position-relative;
+    margin-left: 14px;
+    top: top(60);
+    text-align: $text-align-center;
+    line-height: 24px;
+}
+
+.p39 {
+    @include div-width-height(630, 80);
+    text-align: $text-align-center;
+    color: $colordarks-white;
+    @include p-structure(14, 400);
+    position: $position-relative;
+    top: top(44);
+    left: left(643);
+    line-height: 24px;
+}
+
+.navbar {
+    display: $display-flex;
+    text-align: $text-align-center;
+    position: $position-relative;
+    top: top(35);
+
+    &>p {
+        color: $colordarks-white;
+        @include p-structure(14, 400);
+        position: $position-relative;
+        top: top(12);
+        left: left(345);
+        word-spacing: 1px;
+        margin-left: 31.7px;
+    }
+}
+
+.color-green {
+    color: $color-green;
+}
+
+.small-div {
+    position: $position-relative;
+    top: top(44);
+    left: left(376);
+    @include div-width-height(1167, 0.01);
+    border: 0.2px solid $colordarkwhite2;
+    opacity: 0.1;
+}
+
+.medium-div {
+    position: $position-relative;
+    top: top(50);
+    left: left(376);
+    @include div-width-height(1167, 0.9);
+    border: 0.2px solid $colordarkwhite2;
+    opacity: 0.1;
+}
+
+.btn4 {
+    @include p-structure(14, 400);
+    position: $position-relative;
+    top: top(4);
+    left: left(1423);
+    @include div-width-height(122, 36);
+    border: 1px solid $comp6-serviceitem-border-color;
+    background-color: $comp6-serviceitem-border-color;
+    border-radius: 5px;
+}
+
+.div26,
+.div27 {
+    display: $display-flex;
+    @include div-width-height(1170, 200);
+    position: $position-relative;
+    top: top(32);
+}
+
+.cont1 {
+    @include div-width-height(292, 200);
+    position: $position-relative;
+    left: left(376);
+    top: top(32);
+    background-color: $comp6-serviceitem-border-color;
+}
+
+.cont2 {
+    @include div-width-height(292, 200);
+    position: $position-relative;
+    left: left(376);
+    top: top(32);
+    background-color: $colordarks-white;
+}
+
+.cont3 {
+    @include div-width-height(292, 200);
+    position: $position-relative;
+    left: left(376);
+    top: top(31);
+    background-color: $comp-5-div-16-child-color;
+}
+
+.cont3-child {
+    @include div-width-height(292, 70);
+    position: $position-relative;
+    top: top(115);
+    background-color: $color-white;
+}
+
+.p40 {
+    text-align: $text-align-center;
+    color: $comp-5-div-16-child-color;
+    @include p-structure(15, 900);
+    position: $position-relative;
+    letter-spacing: 1.5px;
+    top: top(19);
+    left: left(1);
+}
+
+.p41 {
+    text-align: $text-align-center;
+    color: $colordarks-white;
+    @include p-structure(12, 400);
+    position: $position-relative;
+    letter-spacing: 1.5px;
+    top: top(8);
+    letter-spacing: 1px;
+}
+
+.triangle {
+    @include div-width-height(16, 20);
+    background-color: $color-white;
+    -ms-transform: rotate(20deg);
+    transform: rotate(45deg);
+    position: $position-relative;
+    left: left(136);
+    top: top(40);
+}
+
+.plus {
+    @include p-structure(48, 100);
+    position: $position-relative;
+    bottom: bottom(192);
+    left: left(132);
+    color: $color-white;
+    opacity: 0.5;
+}

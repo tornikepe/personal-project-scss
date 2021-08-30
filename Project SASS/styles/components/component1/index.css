@@ -1,0 +1,150 @@
+#comp1 {
+  max-width: 1920px;
+  width: 100%;
+  height: 1280px;
+  background-color: #222533;
+}
+
+#comp1 .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#comp1 .div1 .p1 {
+  position: relative;
+  top: 435px;
+  left: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 29px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+
+#comp1 .div1 .psd-template {
+  color: #1ABC9C;
+  position: relative;
+  left: -2px;
+  text-transform: uppercase;
+  font-size: 29px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+#comp1 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#comp1 .div2 .p2 {
+  position: relative;
+  top: 355px;
+  left: 10px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+}
+
+#comp1 .div3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#comp1 .div3 .p3 {
+  position: relative;
+  top: 277px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  left: 10px;
+}
+
+#comp1 .div4 {
+  margin-left: 750px;
+  margin-top: 287px;
+}
+
+#comp1 .div4 .btn1, #comp1 .div4 .btn2 {
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  color: #FFFFFF;
+  stroke-width: 2;
+  stroke-linecap: butt;
+  stroke-miterlimit: 100px;
+  border: 2px solid #FFFFFF;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  border-radius: 2px;
+}
+
+#comp1 .div4 .btn1 > p, #comp1 .div4 .btn2 > p {
+  position: relative;
+  top: -3px;
+}
+
+#comp1 .div4 .btn2 {
+  border: 2px solid #1ABC9C;
+  background-color: #1ABC9C;
+  margin-left: 15px;
+}
+
+#comp1 .div5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#comp1 .div5 .dot {
+  border: 1px solid #DDDDDD;
+  position: relative;
+  top: 38px;
+  left: 5px;
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#comp1 .div5 .dot3 {
+  position: relative;
+  top: 41px;
+  left: -29px;
+  width: 6px;
+  height: 6px;
+  background-color: #1ABC9C;
+  border-radius: 50%;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,242 @@
+@import '../../_reset';
+@import '../../_palette';
+@import '../../_shared';
+
+// comp13
+#comp13 {
+    @include all-components-structure(775);
+    position: $position-relative;
+    bottom: bottom(3063);
+    background-color: $comp-5-background-color;
+
+
+    .keep-in-touch {
+        text-align: $text-align-center;
+        @include p-structure(36, 300);
+        color: $color-white;
+        position: $position-relative;
+        top: top(85);
+        margin-right: 943px;
+    }
+
+    .cursor1 {
+        background-image: url(../../../imagesFolder/pointer.png);
+        @include div-width-height(17, 18);
+        margin-left: 423px;
+        position: $position-relative;
+        bottom: bottom(1818);
+    }
+
+    .cursor2 {
+        background-image: url(../../../imagesFolder/pointer.png);
+        @include div-width-height(17, 18);
+        margin-left: 1058px;
+        position: $position-relative;
+        bottom: bottom(1661);
+    }
+
+    .p84 {
+        @include div-width-height(570, 100);
+        text-align: start;
+        @include p-structure(14, 400);
+        color: $color-white;
+        position: $position-relative;
+        top: top(85);
+        margin-left: 374px;
+        line-height: 24px;
+    }
+
+    .cover-overlay {
+        @include div-width-height(493, 24);
+        background-image: url(../../../imagesFolder/ColorOverlay.png);
+        margin-left: 376px;
+        position: $position-relative;
+        top: top(37);
+    }
+
+    .twitter {
+        @include div-width-height(493, 24);
+        background-image: url(../../../imagesFolder/twitter.png);
+        background-repeat: no-repeat;
+        margin-left: 418px;
+        position: $position-relative;
+        top: top(15);
+    }
+
+    .input1 {
+        border-radius: 4px;
+        background-color: transparent;
+        @include div-width-height(570, 50);
+        border: 1px solid #636372;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(41);
+
+        .p85 {
+            @include p-structure(15, 400);
+            color: $color-white;
+            position: $position-relative;
+            margin-left: 19px;
+            line-height: 24px;
+            bottom: bottom(2);
+        }
+    }
+
+    .input2 {
+        border-radius: 4px;
+        background-color: transparent;
+        @include div-width-height(570, 50);
+        border: 1px solid #636372;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(59);
+
+        .p86 {
+            @include p-structure(15, 400);
+            color: $color-white;
+            position: $position-relative;
+            margin-left: 19px;
+            line-height: 24px;
+            bottom: bottom(2);
+        }
+    }
+
+    .input3 {
+        border-radius: 4px;
+        background-color: transparent;
+        @include div-width-height(570, 50);
+        border: 1px solid #636372;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(77);
+
+        .p87 {
+            @include p-structure(15, 400);
+            color: $color-white;
+            position: $position-relative;
+            margin-left: 19px;
+            line-height: 24px;
+            bottom: bottom(2);
+        }
+    }
+
+    .input4 {
+        border-radius: 4px;
+        background-color: transparent;
+        @include div-width-height(570, 100);
+        border: 1px solid #636372;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(95);
+    }
+
+    .btn8 {
+        border: $bordernone;
+        @include div-width-height(570, 56);
+        background-color: $color-green;
+        margin-left: 375px;
+        position: $position-relative;
+        top: top(114);
+        @include p-structure(16, 900);
+        color: $color-white;
+    }
+
+    .meet-our-team {
+        @include p-structure(36, 300);
+        color: $color-white;
+        position: $position-relative;
+        margin-left: 973px;
+        bottom: bottom(507);
+    }
+
+    .picture3 {
+        border-radius: 3px;
+        @include div-width-height(125, 125);
+        background-color: $color-white;
+        position: $position-relative;
+        margin-left: 975px;
+        bottom: bottom(499);
+    }
+
+    .john-doe {
+        @include p-structure(18, 700);
+        color: $color-white;
+        position: relative;
+        margin-left: 1119px;
+        bottom: bottom(647);
+    }
+
+    .working {
+        @include p-structure(14, 400);
+        color: $color-white;
+        position: relative;
+        margin-left: 1119px;
+        bottom: bottom(660);
+    }
+
+    .p88 {
+        @include div-width-height(418, 161);
+        @include p-structure(14, 400);
+        color: $color-white;
+        position: $position-relative;
+        margin-left: 1119px;
+        bottom: bottom(662);
+        line-height: 24px;
+    }
+
+    .team-members2 {
+        position: $position-relative;
+        bottom: bottom(224);
+    }
+
+    .picture4 {
+        border-radius: 3px;
+        border: 5px solid $color-white;
+        @include div-width-height(115, 115);
+        background-color: transparent;
+        position: $position-relative;
+        margin-left: 975px;
+        bottom: bottom(499);
+    }
+
+    .plus2 {
+        @include p-structure(72, 400);
+        color: $color-white;
+        position: $position-relative;
+        margin-left: 1016px;
+        bottom: bottom(932);
+    }
+
+    .team-members3 {
+        position: $position-relative;
+        bottom: bottom(664);
+    }
+
+    .cubics {
+        @include div-width-height(36, 10);
+        margin-left: 975px;
+        position: $position-relative;
+        bottom: bottom(1396);
+    }
+
+    .cubic1 {
+        @include div-width-height(10, 10);
+        background-color: $color-white;
+    }
+
+    .cubic2 {
+        @include div-width-height(10, 10);
+        margin-left: 16px;
+        position: $position-relative;
+        bottom: bottom(10);
+        background-color: $color-green
+    }
+
+    .cubic3 {
+        @include div-width-height(10, 10);
+        margin-left: 32px;
+        position: $position-relative;
+        bottom: bottom(20);
+        background-color: $color-white;
+    }
+}
